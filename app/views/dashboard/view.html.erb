@@ -1,0 +1,9 @@
+<h1>게시글목록을 보여주는 페이지입니다</h1>
+
+<a href="/dashboard/write">글쓰기</a>
+<br>
+<% @ks.each do |x| %>
+  제목 : <%= x.jaemok %><br>
+  내용: <%= x.naeyong %> <br>
+-----<br>
+<% end %>
